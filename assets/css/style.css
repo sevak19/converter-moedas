@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: gray;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 35px;
+    background-color: rgb(192, 190, 190);
+}
+
+.input-group {
+    width: 395px;
+    padding: 30px;
+}
+
+.resultado {
+    width: 330px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.inputdestino {
+    width: 240px;
+}
